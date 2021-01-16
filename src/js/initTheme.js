@@ -1,8 +1,8 @@
-import { Theme, STORAGE_THEME_KEY, refs } from './constans.js';
+import { Theme, STORAGE_THEME_KEY, refs } from './constans';
 
 const { $body, $themeTooglebtn } = refs;
 
-$themeToogleBtn.addEventListener('change', handleChangeTheme);
+$themeTooglebtn.addEventListener('change', handleChangeTheme);
 
 function handleChangeTheme({ target }) {
   const { checked } = target;

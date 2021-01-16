@@ -6,7 +6,7 @@ import dishes from '../menu.json';
 const { $menuList } = refs;
 
 function createMarkup() {
-  return dishCardsTemplate(dishes);
+  return dishCardTemplate(dishes);
 }
 
 function renderMarkup() {
