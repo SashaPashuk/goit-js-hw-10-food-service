@@ -11,7 +11,7 @@ function createMarkup() {
 
 function renderMarkup() {
   const markup = createMarkup();
-  $menuList.insertAdjacentHTML('beforeed', markup);
+  $menuList.insertAdjacentHTML('beforeend', markup);
 }
 
 renderMarkup();
